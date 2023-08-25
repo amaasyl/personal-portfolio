@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: UDDigi;
+    src: url(../personal-portfolio/font/UDDigiKyokashoN-B.ttc);
+}
+@font-face {
+    font-family: FrankGoth;
+    src: url(../personal-portfolio/font/Franklin\ Gothic\ Demi\ Regular.ttf);
+}
+@font-face {
+    font-family: Bookman ;
+    src: url(../personal-portfolio/font/Bookman\ Old\ Style\ Regular.ttf);
+}
+@font-face {
+    font-family: BerlinSans ;
+    src: url(../personal-portfolio/font/Berlin\ Sans\ FB\ Regular.ttf);
+}
+#wrapper{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/*navigation bar*/
+.navigation{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    background-color: #e6d9fa;
+    z-index:12;
+}
+.logo img{
+    height: 50px;
+    padding-left: 20px;
+}
+.logo{
+    font-family: FrankGoth;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #222148;
+}
+.navs-button ul{
+    font-family: FrankGoth;
+    float: right;
+    color: #222148;
+    margin-top: -50px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.navs-button ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+/*----home----*/
+#home{
+    width: 1440px;
+    height: 521px;
+    background-color: white;
+    position: relative;
+}
+.profpic img{
+    position: relative;
+    width: 383px;
+    height: 378px;
+    margin-left: 170px;
+    margin-right: 41px;
+    margin-top: 150px;
+    animation: fadeIn 2s;
+}
+.home-text{
+    position: relative;
+    font-size: 30px;
+    text-align: left;
+    margin: auto;
+    font-family: UDDigi;
+    margin-left: 582px;
+    margin-top: -250px;
+    color: #8a2077;
+    animation: fadeIn 4s;
+}
+.bio{
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    margin: auto;
+    font-family: UDDigi;
+    margin-left: 582px;
+    margin-top: 10px;
+    color: #8a2077;
+    animation: fadeIn 5s;
+}
+/*-----works-----*/
+#works{
+    background-color: #d0bded;
+    background-repeat: repeat;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top:115px;
+    text-align: center;
+    min-height: 900px;
+    max-width: 1440px;
+}
+.works-title h1{
+    padding-top:30px;
+    position: relative;
+    font-size: 60px;
+    margin: auto;
+    font-family: UDDigi;
+    font-weight: bold;
+    -webkit-text-fill-color: #000000;
+    -webkit-text-stroke: 2px #ffffff
+}
+.Illustration h2{
+    padding-top:25px;
+    position: relative;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: UDDigi;
+    font-weight: bold;
+    color: #222148;
+}
+.container1{
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.box{
+    width: 396px;
+    margin: 0 10px;
+    box-shadow: 10px 10px 10px 2px rgb(255, 255, 255);
+    transition: 1s;
+    margin: 15px;
+}
+.box img{
+    display: block;
+    width:100%;
+    border-radius: 7px;
+    margin: 5px;
+}
+.box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.webd h2{
+    padding-top:40px;
+    position: relative;
+    font-size: 30px;
+    margin: auto;
+    font-family: UDDigi;
+    font-weight: bold;
+    color: #222148;
+}
+.container2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.box2{
+    width: 420px;
+    height: 380px;
+    background-color: #ffffff;
+    margin: 40px;
+}
+.box2 img{
+    padding:20px;
+    width: 397px;
+    height: 250px;
+}
+.box2 h2{
+    margin-top: -5px;
+}
+.box2 p{
+    font-family: Bookman;
+    font-weight: bold;
+    font-size: 15px;
+    color: #100859;
+    padding-top: 5px;
+}
+.button{
+    text-align: center;
+    font-family: Bookman;
+    background-color: #f9b8be;
+    border-color: #f9b8be;
+    margin-top: 15px;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    box-shadow: 0 5px 7px 0 #ff727f
+}
+/*-----About Me-----*/
+#about-me{
+    background-color: #ffffff;
+    background-repeat: repeat;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 700px;
+    max-width: 1440px;
+}
+.title-about{
+    padding-top:30px;
+    position: relative;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    font-family: UDDigi;
+    font-weight: bold;
+    color: #100859;
+}
+.picture img{
+    position: relative;
+    width: 383px;
+    height: 378px;
+    padding-top: 20px;
+    margin-left: 90px;
+    margin-right: 80px;
+}
+.about-text p{
+    font-family: BerlinSans;
+    color: #100859;
+    margin-left: 545px;
+    margin-top: -335px;
+    font-size:25px;
+}
+.skills h2{
+    font-family: UDDigi;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 45px;
+    color: #100859;
+}
+.skills img{
+    margin-left: 270px;
+    margin-top: -76px;
+}
+/*------contact------*/
+#contact{
+    background-color: #d0bded;
+    background-repeat: repeat;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 400px;
+    max-width: 1440px;
+}
+.contact-text{
+    text-align: center;
+    font-family: UDDigi;
+    padding-top: 20px;
+    font-size: 20px;
+    color:#100859;
+}
+.ig{
+    text-align: center;
+    font-family: UDDigi;
+    background-color: #f9b8be;
+    border-color: #ff727f;
+    margin-top: 60px;
+    border-radius: 8px;
+    width: 423px;
+    height: 87px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 250px;
+    color: #100859;
+}
+.twitter{
+    text-align: center;
+    font-family: UDDigi;
+    background-color: #f9b8be;
+    border-color: #ff727f;
+    margin-top: -88px;
+    border-radius: 8px;
+    width: 423px;
+    height: 87px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #100859;
+    float: right;
+    margin-right: 220px;
+}
+/*keyframes*/
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
